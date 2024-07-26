@@ -58,6 +58,7 @@ def change_time(time, seconds):
         time.hour += 1
     return None
 
+
 def time_to_sec(time):
     '''convert a time object to a single integer representing the number of seconds from mid-night'''
     minutes = time.hour * 60 + time.minute
